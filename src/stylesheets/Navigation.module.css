@@ -22,3 +22,7 @@
 .NavigationItem a:active {
   color: aqua;
 }
+
+.Active {
+  color: aqua;
+}
