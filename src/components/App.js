@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Header from './components/layout/Header'
+import Header from './layout/Header'
 
-import './App.css';
-import AboutContainer from './components/home/AboutContainer';
-import ProjectsContainer from './components/projects/ProjectsContainer'
-import ResumeContainer from './components/resume/ResumeContainer'
-import ContactContainer from './components/contact/ContactContainer'
+import styles from '../stylesheets/App.module.css';
+import AboutContainer from './home/AboutContainer';
+import ProjectsContainer from './projects/ProjectsContainer'
+import ResumeContainer from './resume/ResumeContainer'
+import ContactContainer from './contact/ContactContainer'
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className={styles.App}>
           <Header title="Software Developer" name="Edwin Agbenyega" />
 
           <Switch>
