@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react'
 import styles from '../../stylesheets/Header.module.css'
+import vars from '../../stylesheets/Variables.module.css'
 import Navigation from './Navigation'
 
 const header = (props) => (
   <Fragment>
     <header className={styles.Header}>
-      <h4>{props.title}</h4>
-      <h2>{props.name}</h2>
+      <h3>{props.title}</h3>
+      <h1 className={vars.Roboto}>{props.name}</h1>
       <Navigation navList={props.navList} />
     </header>
   </Fragment>

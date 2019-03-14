@@ -23,11 +23,13 @@ class App extends Component {
       <Router>
         <div className={styles.App}>
           <Header title="Software Developer" name="Edwin Agbenyega" navList={this.state.navList} />
-          <Switch>
-            {this.state.navList.map(route => (
-              <Route exact path={route.path} component={route.component} key={route.id} />
-            ))}
-          </Switch>
+          <section className={styles.Section}>
+            <Switch>
+              {this.state.navList.map(route => (
+                <Route exact path={route.path} component={route.component} key={route.id} />
+              ))}
+            </Switch>
+          </section>
         </div>
       </Router>
     );
