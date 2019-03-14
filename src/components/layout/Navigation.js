@@ -1,13 +1,17 @@
 import React from 'react'
-import { Nav, NavItem, NavLink } from 'reactstrap'
-import { Link } from 'react-router-dom'
+import NavigationItem from './NavigationItem'
+import { Nav } from 'reactstrap'
 
-const navigation = props => (
-  <Nav justify-content-cent>
-    {props.navList.map(navItem => (
-      <NavItem><NavLink><Link to={navItem.path}>{navItem.title}</Link></NavLink></NavItem>
-    ))}
-  </Nav>
-)
+import styles from '../../stylesheets/Navigation.module.css'
 
+const navigation = props => {
+  let navStyle = styles.Navigation + " justify-content-center"
+  return (
+    <Nav className={navStyle}>
+      {props.navList.map(navItem => (
+        <NavigationItem path={navItem.path} title={navItem.title} key={navItem.id} />
+      ))}
+    </Nav>
+  )
+}
 export default navigation

@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Header from './layout/Header'
-import Navigation from './layout/Navigation'
 
-import styles from '../stylesheets/App.module.css';
-import AboutContainer from './home/AboutContainer';
+import styles from '../stylesheets/App.module.css'
+import AboutContainer from './home/AboutContainer'
 import ProjectsContainer from './projects/ProjectsContainer'
 import ResumeContainer from './resume/ResumeContainer'
 import ContactContainer from './contact/ContactContainer'
@@ -23,11 +22,10 @@ class App extends Component {
     return (
       <Router>
         <div className={styles.App}>
-          <Header title="Software Developer" name="Edwin Agbenyega" />
-          <Navigation navList={this.state.navList} />
+          <Header title="Software Developer" name="Edwin Agbenyega" navList={this.state.navList} />
           <Switch>
             {this.state.navList.map(route => (
-              <Route exact path={route.path} component={route.component} />
+              <Route exact path={route.path} component={route.component} key={route.id} />
             ))}
           </Switch>
         </div>
