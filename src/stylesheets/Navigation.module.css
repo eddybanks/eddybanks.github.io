@@ -1,13 +1,10 @@
-.Navigation {
-}
-
 .NavigationItem {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   text-transform: uppercase;
 }
 
 .NavigationItem:hover {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .NavigationItem a {

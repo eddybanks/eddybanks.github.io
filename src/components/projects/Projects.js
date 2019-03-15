@@ -1,9 +1,10 @@
 import React from 'react'
+import Project from './Project/Project'
 
 const projects = (props) => {
   return (
     <div>
-      <p>List of Projects to be Added!</p>
+      {props.projects.map(project => <Project img={project.src} alt={project.alt} title={project.title} />)}      
     </div>
   )
 }

@@ -5,9 +5,9 @@ class AboutContainer extends Component {
   state = {
     title: "About Me",
     content: [
-      "Some text about me",
-      "More text about me",
-      "Me me me me me!"
+      "I'm Edwin Agbenyega, a software developer",
+      "I've been working as a data analyst for the past two years but still feel like a newbie fresh out of grad school and hoping to gain some more experience out there!",
+      "I'm looking for a slight career change...eager to learn and be part of some exciting projects out there!"
     ]
   }
 
