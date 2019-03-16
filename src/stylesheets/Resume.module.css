@@ -1,0 +1,35 @@
+.Resume {
+  background-color: rgba(0,0,0,0.9);
+  width: 90%;
+  margin: 1% 5%;
+  min-height: 50vh;
+  color: white;
+  padding: 3%;
+  text-align: center;
+}
+
+.ResumeBox {
+  background-color: rgba(0,0,0,0.4);
+  width: 60%;
+  margin: 0 20%;
+  height: 52vh;
+  overflow: auto;
+  text-align: center;
+}
+
+.ResumeSection {
+  margin: 2%;
+}
+
+.ResumeSection p {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
