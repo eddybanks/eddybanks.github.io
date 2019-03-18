@@ -7,8 +7,8 @@ class ResumeContainer extends Component {
       { id: 0, type: 'section', title: 'Edwin Agbenyega', 
         content: [
           'https://www.linkedin.com/in/eddybanks03',
-          'https://github.com/eddydevv',
-          '(505) 589-5577 eddy.devv@gmail.com'
+          'https://github.com/eddybanks',
+          'eddybanks03@gmail.com'
         ] },
       { id: 1, type: 'section', title: 'Summary', 
         content: ['Software Developer with experience in rails web application development, database management as well as data visualization and analytics. Team player with good problem solving skills and a yearning to learn and acquire new skills.'] },
@@ -26,7 +26,7 @@ class ResumeContainer extends Component {
       { id: 5, type: 'section', title: 'Languages', 
         content: [''] },
       { id: 5, type: 'section', title: 'References', 
-        content: ['Will be provided by Request!'] }
+        content: ['References available upon request!'] }
     ]
   }
   render() {
