@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import styles from '../../../stylesheets/Projects.module.css'
-import { Card } from 'reactstrap'
 
 const Project = props => {
   return (
