@@ -27,7 +27,7 @@ class ProjectsContainer extends Component {
   render() {
     return (
       // <Projects projects={this.state.projects} />
-      <div style={{height: '40vh', padding: '10%', backgroundColor: 'rgba(0,0,0,0.2)'}}>
+      <div style={{height: '54vh', padding: '2vh', backgroundColor: 'rgba(0,0,0,0.2)'}}>
         <Example />
       </div>
     )
