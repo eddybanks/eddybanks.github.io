@@ -1,7 +1,11 @@
 .Contact {
-
+  background: rgba(25, 25, 0, 0.3);
+  padding: 1%;
 }
 
+.Contact .form-control {
+  margin-top: calc(1px + 1.5rem);
+}
 .Contact p, input {
   margin: 4%;
 }

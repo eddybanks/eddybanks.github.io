@@ -6,7 +6,7 @@ import styles from '../../stylesheets/Contact.module.css'
 
 const contact = props => {
   return (
-    <div className="styles.Contact">
+    <div className={styles.Contact}>
       <Row>
         <Col md-6>
           <p>For any job offers or questions, feel free to drop me a line!</p>
