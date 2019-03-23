@@ -1,6 +1,7 @@
 .Contact {
-  background: rgba(25, 25, 0, 0.3);
+  background: rgba(25, 25, 0, 0.8);
   padding: 1%;
+  color: white;
 }
 
 .Contact .form-control {

@@ -17,6 +17,11 @@
 
 .CarouselPic {
   height: 50vh;
+  color: black;
+}
+
+.CarouselCaption h3, .CarouselCaption p {
+  color: black;
 }
 
 ::-webkit-scrollbar {

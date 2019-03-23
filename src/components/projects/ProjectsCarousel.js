@@ -73,7 +73,7 @@ class Example extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} className={styles.CarouselPic} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <CarouselCaption captionText={item.caption} captionHeader={item.caption} className={styles.CarouselCaption} />
         </CarouselItem>
       );
     });
