@@ -3,11 +3,15 @@ import Contact from './Contact'
 
 class ContactContainer extends Component {
   state = {
-    phoneNumber: '5055895577'
+    contactInfo: {
+      linkedin: 'https://www.linkedin.com/in/eddybanks03',
+      github: 'https://www.github.com/eddybanks',
+      email: 'eddybanks03@gmail.com'
+    }
   }
 
   render() {
-    return <Contact />
+    return <Contact contactInfo={this.state.contactInfo} />
   }
 }
 

@@ -9,10 +9,19 @@
 .Projects {
   background-color: rgba(0,0,0,0.4);
   width: 60%;
-  margin: 0 20%;
+  margin: 0;
   height: 52vh;
   overflow: auto;
   text-align: center;
+}
+
+.CarouselPic {
+  height: 50vh;
+  color: black;
+}
+
+.CarouselCaption h3, .CarouselCaption p {
+  color: black;
 }
 
 ::-webkit-scrollbar {

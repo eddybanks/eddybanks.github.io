@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Projects from './Projects'
+import Example from './ProjectsCarousel'
 
 class ProjectsContainer extends Component {
   state = {
@@ -25,7 +26,10 @@ class ProjectsContainer extends Component {
 
   render() {
     return (
-      <Projects projects={this.state.projects} />
+      // <Projects projects={this.state.projects} />
+      <div style={{height: '54vh', padding: '2vh', backgroundColor: 'rgba(0,0,0,0.2)'}}>
+        <Example />
+      </div>
     )
   }
 }
