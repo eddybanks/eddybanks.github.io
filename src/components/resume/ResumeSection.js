@@ -5,7 +5,7 @@ const resumeSection = props => (
   <div className={styles.ResumeSection}>
     <h4>{props.title}</h4>
     {props.content.map(line => (
-      <p>{line}</p>
+      <p><span className={styles.contentTitle}>{line.title}</span>{line.details}</p>
     ))}
   </div>
 )
