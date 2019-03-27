@@ -8,7 +8,7 @@ class ProjectsContainer extends Component {
       { 
         id: 0,
         img: {
-        src: 'http://i.imgur.com/B0gV7Gq.png',
+        src: 'https://photos.app.goo.gl/3GmDE6pjU5p34aDS8',
         alt: 'Hangout@229'
         },
         title: 'Hangout@229'
@@ -16,7 +16,7 @@ class ProjectsContainer extends Component {
       { 
         id: 1,
         img: {
-        src: 'http://i.imgur.com/B0gV7Gq.png',
+        src: 'https://photos.app.goo.gl/3GmDE6pjU5p34aDS8',
         alt: 'Lippia Tea'
         },
         title: 'Lippia Tea'
@@ -27,7 +27,8 @@ class ProjectsContainer extends Component {
   render() {
     return (
       // <Projects projects={this.state.projects} />
-      <div style={{height: '54vh', padding: '2vh', backgroundColor: 'rgba(0,0,0,0.2)'}}>
+      <div style={{height: '56vh', padding: '2vh', backgroundColor: 'rgba(0,0,0,0.2)'}}>
+        <p><italic>Unfortunately all my projects are currently being redone and will be properly displayed here by the end of May 2019!!</italic></p>
         <Example />
       </div>
     )

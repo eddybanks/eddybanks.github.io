@@ -10,17 +10,17 @@ import styles from '../../stylesheets/Projects.module.css'
 
 const items = [
   {
-    src: 'http://i.imgur.com/B0gV7Gq.png',
+    src: 'https://via.placeholder.com/1500x900/DDDDFF/000000?text=This+is+a+placeholder+for+the+project',
     altText: 'Slide 1',
     caption: 'Hangout@229'
   },
   {
-    src: 'http://i.imgur.com/B0gV7Gq.png',
+    src: 'https://via.placeholder.com/1500x900/DDFFDD/000000?text=This+is+a+placeholder+for+the+project',
     altText: 'Slide 2',
     caption: 'Lippia Tea'
   },
   {
-    src: 'http://i.imgur.com/B0gV7Gq.png',
+    src: 'https://via.placeholder.com/1500x900/DDDDCC/000000?text=This+is+a+placeholder+for+the+project',
     altText: 'Slide 3',
     caption: 'Company Catalog'
   }

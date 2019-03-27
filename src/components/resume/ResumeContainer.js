@@ -26,10 +26,14 @@ class ResumeContainer extends Component {
       },
       { id: 3, type: 'section', title: 'Work Experience', 
         content: [
-          ''
+          { title: 'Institutional Researcher: ', details: 'University of New Mexico', start_date: '02.27.2017', end_date: 'Ongoing' },
+          { title: 'Research Assistant: ', details: 'University of New Mexico', start_date: '01.09.2015', end_date: '12.16.2016' }
         ] },
       { id: 4, type: 'section', title: 'Education', 
-        content: [''] },
+        content: [
+          { title: 'MSc. Computer Engineering: ', details: 'University of New Mexico', start_date: '01.09.2015', end_date: '06.31.2017' },
+          { title: 'BSc. Computer Engineering: ', details: 'Chungnam National University', start_date: '03.20.2011', end_date: '12.16.2014' }
+        ] },
       { id: 5, type: 'section', title: 'Languages', 
         content: [
           { title: 'English: ', details: 'Native' },

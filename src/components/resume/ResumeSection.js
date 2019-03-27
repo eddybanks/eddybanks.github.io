@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styles from '../../stylesheets/Resume.module.css'
+import { Row, Col } from 'reactstrap'
 
 const resumeSection = props => (
   <div className={styles.ResumeSection}>
-    <h4>{props.title}</h4>
-    {props.content.map(line => (
-      <p><span className={styles.contentTitle}>{line.title}</span>{line.details}</p>
-    ))}
+    <h4>{props.title}</h4><hr />
+    {props.content.map(line => { return (
+      <Fragment>
+        <Row>
+          <Col md="3" className={styles.contentTitle}>{line.title}</Col>
+          <Col md="9">{line.details}</Col>
+        </Row>
+      </Fragment>
+    )})}
   </div>
 )
 
