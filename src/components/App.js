@@ -8,6 +8,8 @@ import ProjectsContainer from './projects/ProjectsContainer'
 import ResumeContainer from './resume/ResumeContainer'
 import ContactContainer from './contact/ContactContainer'
 
+import '../assets/background.jpg'
+
 class App extends Component {
   state = {
     navList: [
