@@ -6,8 +6,8 @@ class AboutContainer extends Component {
     title: "About Me",
     content: [
       "I'm Edwin Agbenyega, a software developer",
-      "I've been working as a data analyst for the past two years but still feel like a newbie fresh out of grad school and hoping to gain some more experience out there!",
-      "I'm looking for a slight career change...eager to learn and be part of some exciting projects out there!"
+      "I've been working as a data analyst for the past three years and have an even greater passion for web development!",
+      "I enjoy every step of the full stack development process and I am currently looking to find a job that would enable me to grow as a developer"
     ]
   }
 
