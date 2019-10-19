@@ -7,9 +7,6 @@
 .Contact .form-control {
   margin-top: calc(1px + 1.5rem);
 }
-.Contact p, input {
-  margin: 4%;
-}
 
 .Contact a {
   text-decoration: none;
