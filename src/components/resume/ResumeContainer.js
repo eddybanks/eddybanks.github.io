@@ -13,15 +13,15 @@ class ResumeContainer extends Component {
       },
       { id: 1, type: 'section', title: 'Summary', 
         content: [
-          { details: 'Software Developer with experience in rails web application development, database management as well as data visualization and analytics. Team player with good problem solving skills and a yearning to learn and acquire new skills.' }
+          { details: 'Software Developer with experience in react and rails web application development, database management as well as data visualization and analytics.' }
         ] 
       },
       { id: 2, type: 'section', title: 'Skills', 
         content: [
-          { title: 'Programming Languages: ', details: 'Python, Ruby, Java, C, C++, R (tidyverse)' },
-          { title: 'Web Development: ', details: 'Ruby on rails, HTML5, CSS3, JQuery, React.js, Bootstrap, Webpack, GraphQL' },
-          { title: 'Database Management and Data Analytics: ', details: 'PostgreSQL, Oracle, MySQL, MongoDB, Tableau' },
-          { title: 'Project Management & Version Control Tools: ', details: 'Slack, Trello, Confluence, Git, GitHub' }
+          { title: 'Programming Languages: ', details: 'Javascript, Python, Ruby, Java, C#, C++, R (tidyverse)' },
+          { title: 'Web Development: ', details: 'React.js, Ruby on rails, HTML5, CSS3, JQuery, Bootstrap, Webpack, GraphQL' },
+          { title: 'Database Management and Data Analytics: ', details: 'PostgreSQL, MongoDB, Tableau, Oracle, MySQL' },
+          { title: 'Project Management & Version Control: ', details: 'Slack, Trello, Confluence, Git, GitHub' }
         ] 
       },
       { id: 3, type: 'section', title: 'Work Experience', 

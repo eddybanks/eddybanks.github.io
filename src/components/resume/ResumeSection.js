@@ -8,8 +8,8 @@ const resumeSection = props => (
     {props.content.map(line => { return (
       <Fragment>
         <Row>
-          <Col md="3" className={styles.contentTitle}>{line.title}</Col>
-          <Col md="9">{line.details}</Col>
+          <Col md="4" className={styles.contentTitle}>{line.title}</Col>
+          <Col md="8">{line.details}</Col>
         </Row>
       </Fragment>
     )})}
