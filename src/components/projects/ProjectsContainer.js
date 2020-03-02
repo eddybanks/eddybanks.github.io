@@ -26,9 +26,9 @@ class ProjectsContainer extends Component {
 
   render() {
     return (
-      // <Projects projects={this.state.projects} />
-      <div style={{height: '56vh', padding: '2vh', backgroundColor: 'rgba(0,0,0,0.05)'}}>
-        <p><italic>Unfortunately all my projects are currently being redone and will be properly displayed later!!</italic></p>
+      <div>
+        <Projects projects={this.state.projects} />
+        {/* <p><italic>Unfortunately all my projects are currently being redone and will be properly displayed later!!</italic></p> */}
         {/* <Example /> */}
       </div>
     )
