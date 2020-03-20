@@ -42,6 +42,7 @@ class ProjectsContainer extends Component {
     return (
       <Container>
         <Projects projects={this.state.projects} />
+        <emph>Still working on these demo apps, including my portfolio app!!</emph>
       </Container>
     )
   }
