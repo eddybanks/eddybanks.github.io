@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Projects from './Projects'
 import { Container } from 'reactstrap'
+import hangout229 from '../../assets/hangout229.png'
+import kirtlandlogistics from '../../assets/kirtlandlogistics.png'
+import portfolio from '../../assets/portfolio.png'
 
 class ProjectsContainer extends Component {
   state = {
@@ -8,26 +11,29 @@ class ProjectsContainer extends Component {
       { 
         id: 0,
         img: {
-        src: 'https://photos.app.goo.gl/3GmDE6pjU5p34aDS8',
+        src: hangout229,
         alt: 'Hangout@229'
         },
-        title: 'Hangout@229'
+        title: 'Hangout@229',
+        url: 'https://eddybanks.github.io/hangout229'
       },
       { 
         id: 1,
         img: {
-        src: 'https://photos.app.goo.gl/3GmDE6pjU5p34aDS8',
+        src: portfolio,
         alt: 'Lippia Tea'
         },
-        title: 'Lippia Tea'
+        title: 'Portfolio Site',
+        url: 'https://eddybanks.github.io/portfolio'
       },
       { 
         id: 1,
         img: {
-        src: 'https://photos.app.goo.gl/3GmDE6pjU5p34aDS8',
-        alt: 'Lippia Tea'
+        src: kirtlandlogistics,
+        alt: 'Kirtland Logistics'
         },
-        title: 'Lippia Tea'
+        title: 'Kirtland Logistics',
+        url: 'https://eddybanks.github.io/kirtland-logistics'
       }
     ]
   }

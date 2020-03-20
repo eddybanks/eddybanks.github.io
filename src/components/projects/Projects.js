@@ -8,7 +8,7 @@ const projects = (props) => {
     <Row className={styles.Projects}>
       {props.projects.map(project => (
         <Col xs="6" md="4">
-          <Project img={project.img} title={project.title} key={project.id} />
+          <Project img={project.img} title={project.title} key={project.id} url={project.url} />
         </Col>
       ))}      
     </Row>
