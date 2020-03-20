@@ -1,12 +1,17 @@
 import React from 'react'
 import Project from './Project/Project'
 import styles from '../../stylesheets/Projects.module.css';
+import { Row, Col } from 'reactstrap'
 
 const projects = (props) => {
   return (
-    <div className={styles.Projects}>
-      {props.projects.map(project => <Project img={project.src} alt={project.alt} title={project.title} key={project.id} />)}      
-    </div>
+    <Row className={styles.Projects}>
+      {props.projects.map(project => (
+        <Col xs="6" md="4">
+          <Project img={project.img} title={project.title} key={project.id} />
+        </Col>
+      ))}      
+    </Row>
   )
 }
 

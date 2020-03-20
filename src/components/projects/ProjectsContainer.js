@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Projects from './Projects'
-import Example from './ProjectsCarousel'
+import { Container } from 'reactstrap'
 
 class ProjectsContainer extends Component {
   state = {
@@ -20,17 +20,23 @@ class ProjectsContainer extends Component {
         alt: 'Lippia Tea'
         },
         title: 'Lippia Tea'
+      },
+      { 
+        id: 1,
+        img: {
+        src: 'https://photos.app.goo.gl/3GmDE6pjU5p34aDS8',
+        alt: 'Lippia Tea'
+        },
+        title: 'Lippia Tea'
       }
     ]
   }
 
   render() {
     return (
-      // <Projects projects={this.state.projects} />
-      <div style={{height: '56vh', padding: '2vh', backgroundColor: 'rgba(0,0,0,0.05)'}}>
-        <p><italic>Unfortunately all my projects are currently being redone and will be properly displayed later!!</italic></p>
-        {/* <Example /> */}
-      </div>
+      <Container>
+        <Projects projects={this.state.projects} />
+      </Container>
     )
   }
 }

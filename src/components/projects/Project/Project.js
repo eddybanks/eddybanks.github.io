@@ -5,7 +5,7 @@ const Project = props => {
   return (
     <Fragment>
       <div className={styles.Project}>
-        <img src={props.src} alt={props.alt} />
+        <img src={props.img.src} alt={props.img.alt} />
         <h3>{props.title}</h3>
       </div>
     </Fragment>

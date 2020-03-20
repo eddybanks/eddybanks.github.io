@@ -1,34 +1,8 @@
-.Project {
-  /* background-color: rgba(0,0,0,0.9); */
-  width: 90%;
-  margin: 1% 5%;
-  min-height: 50vh;
-  color: white;
+Projects {
+  background-color: bisque;
 }
 
-.Projects {
-  /* background-color: rgba(0,0,0,0.4); */
-  width: 60%;
-  margin: 0;
-  height: 50vh;
-  overflow: auto;
-  text-align: center;
-}
-
-.CarouselPic {
-  height: 48vh;
-  color: black;
-}
-
-.CarouselCaption h3, .CarouselCaption p {
-  color: black;
-}
-
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-}
-/* optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
+Project {
+  background-color: black;
+  color: aliceblue;
 }
