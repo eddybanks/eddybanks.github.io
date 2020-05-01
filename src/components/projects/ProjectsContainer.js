@@ -43,7 +43,7 @@ class ProjectsContainer extends Component {
       <Container>
         {/* <Projects projects={this.state.projects} /> */}
         <p>Will be displayed soon!!</p>
-        <p>For now you can follow my <a href='https://github.com/eddybanks' target='_blank'>github</a> to check out projects I'm working on!!</p>
+        <p>For now you can follow my <a href='https://github.com/eddybanks' target='_blank' rel='noopener noreferrer'>github</a> to check out projects I'm working on!!</p>
       </Container>
     )
   }
