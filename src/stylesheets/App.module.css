@@ -21,3 +21,23 @@
   color: rgb(19, 10, 6);
   font-family: 'Sniglet', cursive;
 }
+/* Color Theme Swatches in Hex */
+.MC-True-Dark-Teal-1-hex { color: #081B2E; }
+.MC-True-Dark-Teal-2-hex { color: #0C2E45; }
+.MC-True-Dark-Teal-3-hex { color: #154961; }
+.MC-True-Dark-Teal-4-hex { color: #166982; }
+.MC-True-Dark-Teal-5-hex { color: #3B94A3; }
+
+/* Color Theme Swatches in RGBA */
+.MC-True-Dark-Teal-1-rgba { color: rgba(8, 27, 46, 1); }
+.MC-True-Dark-Teal-2-rgba { color: rgba(12, 46, 69, 1); }
+.MC-True-Dark-Teal-3-rgba { color: rgba(21, 73, 97, 1); }
+.MC-True-Dark-Teal-4-rgba { color: rgba(22, 105, 130, 1); }
+.MC-True-Dark-Teal-5-rgba { color: rgba(59, 148, 163, 1); }
+
+/* Color Theme Swatches in HSLA */
+.MC-True-Dark-Teal-1-hsla { color: hsla(210, 70, 10, 1); }
+.MC-True-Dark-Teal-2-hsla { color: hsla(204, 70, 15, 1); }
+.MC-True-Dark-Teal-3-hsla { color: hsla(198, 64, 23, 1); }
+.MC-True-Dark-Teal-4-hsla { color: hsla(193, 71, 29, 1); }
+.MC-True-Dark-Teal-5-hsla { color: hsla(188, 46, 43, 1); }

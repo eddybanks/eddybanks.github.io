@@ -41,8 +41,9 @@ class ProjectsContainer extends Component {
   render() {
     return (
       <Container>
-        <Projects projects={this.state.projects} />
-        <emph>Still working on these demo apps, including my portfolio app!!</emph>
+        {/* <Projects projects={this.state.projects} /> */}
+        <p>Will be displayed soon!!</p>
+        <p>For now you can follow my <a href='https://github.com/eddybanks' target='_blank'>github</a> to check out projects I'm working on!!</p>
       </Container>
     )
   }
