@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <Router>
         <div className={styles.App}>
-          <Header title="Software Developer" name="Edwin Agbenyega" navList={this.state.navList} />
+          <Header title="Software/Data Engineer" name="Edwin Agbenyega" navList={this.state.navList} />
           <section className={styles.Section}>
             <Switch>
               {this.state.navList.map(route => (

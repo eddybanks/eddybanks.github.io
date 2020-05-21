@@ -21,7 +21,7 @@ class ResumeContainer extends Component {
           { title: 'Programming Languages: ', details: 'Javascript, Python, Ruby, Java, C#, C++, R (tidyverse)' },
           { title: 'Web Development: ', details: 'React & Redux, Ruby on rails, Apollo, GraphQL' },
           { title: 'Database Management and Data Analytics: ', details: 'PostgreSQL, MongoDB, Tableau, Oracle, MySQL' },
-          { title: 'Project Management & Version Control: ', details: 'Slack, Trello, Confluence, Git' }
+          { title: 'Documentation & Version Control Tools: ', details: 'Slack, Trello, Asana, Confluence, Git' }
         ] 
       },
       { id: 3, type: 'section', title: 'Work Experience', 
