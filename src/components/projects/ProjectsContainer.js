@@ -5,6 +5,7 @@ import schooladmin from '../../assets/schooladmin.png'
 import hangout229 from '../../assets/hangout229.png'
 import kirtlandlogistics from '../../assets/kirtlandlogistics.png'
 import portfolio from '../../assets/portfolio.png'
+import crwneddy from '../../assets/crwneddy.png'
 
 class ProjectsContainer extends Component {
   state = {
@@ -16,10 +17,19 @@ class ProjectsContainer extends Component {
         alt: 'School Admin'
         },
         title: 'School Admin',
-        url: 'https://paper-huts.github.io/noble-dbms-app'
+        url: 'https://paper-huts.github.io/school-admin'
       },
       { 
         id: 1,
+        img: {
+        src: crwneddy,
+        alt: 'Crwn Clothing'
+        },
+        title: 'Crwn Clothing',
+        url: 'https://crwneddy.herokuapp.com/'
+      },
+      { 
+        id: 2,
         img: {
         src: hangout229,
         alt: 'Hangout@229'
@@ -28,7 +38,7 @@ class ProjectsContainer extends Component {
         url: 'https://eddybanks.github.io/hangout229'
       },
       { 
-        id: 2,
+        id: 3,
         img: {
         src: portfolio,
         alt: 'Lippia Tea'
@@ -37,7 +47,7 @@ class ProjectsContainer extends Component {
         url: 'https://eddybanks.github.io/portfolio'
       },
       { 
-        id: 3,
+        id: 4,
         img: {
         src: kirtlandlogistics,
         alt: 'Kirtland Logistics'
@@ -46,7 +56,7 @@ class ProjectsContainer extends Component {
         url: 'https://eddybanks.github.io/kirtland-logistics'
       },
       // { 
-      //   id: 4,
+      //   id: 5,
       //   img: {
       //   src: paperhuts,
       //   alt: 'Paper Huts'
