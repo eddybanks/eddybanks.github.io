@@ -1,22 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.43b8d303.chunk.css",
-    "main.js": "/portfolio/static/js/main.9a6d0ae3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9a6d0ae3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5ba64a18.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5ba64a18.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6c1b9ebb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6c1b9ebb.js.map",
     "static/css/2.619dee99.chunk.css": "/portfolio/static/css/2.619dee99.chunk.css",
-    "static/js/2.c9872875.chunk.js": "/portfolio/static/js/2.c9872875.chunk.js",
-    "static/js/2.c9872875.chunk.js.map": "/portfolio/static/js/2.c9872875.chunk.js.map",
+    "static/js/2.94cbfa4d.chunk.js": "/portfolio/static/js/2.94cbfa4d.chunk.js",
+    "static/js/2.94cbfa4d.chunk.js.map": "/portfolio/static/js/2.94cbfa4d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3356708c1b96e469700b2a604bb888a0.js": "/portfolio/precache-manifest.3356708c1b96e469700b2a604bb888a0.js",
+    "precache-manifest.100d6473f5da245d701483789599f44a.js": "/portfolio/precache-manifest.100d6473f5da245d701483789599f44a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.619dee99.chunk.css.map": "/portfolio/static/css/2.619dee99.chunk.css.map",
     "static/css/main.43b8d303.chunk.css.map": "/portfolio/static/css/main.43b8d303.chunk.css.map",
     "static/media/crwneddy.png": "/portfolio/static/media/crwneddy.83d844f6.png",
-    "static/media/hangout229.png": "/portfolio/static/media/hangout229.1e02e39a.png",
-    "static/media/kirtlandlogistics.png": "/portfolio/static/media/kirtlandlogistics.dc2159f3.png",
-    "static/media/portfolio.png": "/portfolio/static/media/portfolio.a1adb29c.png",
     "static/media/schooladmin.png": "/portfolio/static/media/schooladmin.fd48bb3b.png"
   }
 }
