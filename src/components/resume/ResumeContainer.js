@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Resume from './Resume'
+// import Resume from './Resume'
+import resume from '../../assets/resume.pdf'
 
 class ResumeContainer extends Component {
   state = {
@@ -46,7 +47,8 @@ class ResumeContainer extends Component {
     ]
   }
   render() {
-    return <Resume page={this.state.resume} />
+    // return <Resume page={this.state.resume} />
+    return <embed src={resume} type="application/pdf" height="90%" width="60%" />
   }
 }
 
