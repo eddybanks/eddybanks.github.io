@@ -12,7 +12,12 @@ class App extends Component {
   state = {
     navList: [
       { id: 0, path: "/", title: "About", component: AboutContainer },
-      { id: 1, path: "/resume", title: "Resume", component: ResumeContainer },
+      {
+        id: 1,
+        path: "/resume",
+        title: "Resume",
+        component: ResumeContainer,
+      },
       {
         id: 2,
         path: "/projects",
