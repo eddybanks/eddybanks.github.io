@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e850cc48.chunk.css",
-    "main.js": "/portfolio/static/js/main.50fc7106.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.50fc7106.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.209522bf.chunk.css",
+    "main.js": "/portfolio/static/js/main.056f4711.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.056f4711.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6c1b9ebb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6c1b9ebb.js.map",
     "static/css/2.619dee99.chunk.css": "/portfolio/static/css/2.619dee99.chunk.css",
-    "static/js/2.ee1b8994.chunk.js": "/portfolio/static/js/2.ee1b8994.chunk.js",
-    "static/js/2.ee1b8994.chunk.js.map": "/portfolio/static/js/2.ee1b8994.chunk.js.map",
+    "static/js/2.2b1573d5.chunk.js": "/portfolio/static/js/2.2b1573d5.chunk.js",
+    "static/js/2.2b1573d5.chunk.js.map": "/portfolio/static/js/2.2b1573d5.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.59819df0d273cd52c65161430fe623c2.js": "/portfolio/precache-manifest.59819df0d273cd52c65161430fe623c2.js",
+    "precache-manifest.646b278cc5a1ff2a525afaa2c6754ad0.js": "/portfolio/precache-manifest.646b278cc5a1ff2a525afaa2c6754ad0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.619dee99.chunk.css.map": "/portfolio/static/css/2.619dee99.chunk.css.map",
-    "static/css/main.e850cc48.chunk.css.map": "/portfolio/static/css/main.e850cc48.chunk.css.map",
-    "static/media/crwneddy.png": "/portfolio/static/media/crwneddy.83d844f6.png",
+    "static/css/main.209522bf.chunk.css.map": "/portfolio/static/css/main.209522bf.chunk.css.map",
+    "static/media/behance.svg": "/portfolio/static/media/behance.f2fb2a49.svg",
+    "static/media/crwneddy.png": "/portfolio/static/media/crwneddy.9f069ca2.png",
+    "static/media/instagram.svg": "/portfolio/static/media/instagram.04f1d872.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.6c8e140e.svg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.1bcbb0e9.pdf",
-    "static/media/schooladmin.png": "/portfolio/static/media/schooladmin.fd48bb3b.png"
+    "static/media/schooladmin.png": "/portfolio/static/media/schooladmin.ddbad142.png",
+    "static/media/skywatcher.png": "/portfolio/static/media/skywatcher.097fe751.png"
   }
 }
