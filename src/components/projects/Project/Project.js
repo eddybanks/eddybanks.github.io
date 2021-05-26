@@ -1,14 +1,17 @@
-import React from 'react'
-import styles from '../../../stylesheets/Projects.module.css'
-import { Card, CardImg, CardTitle } from 'reactstrap'
+import React from "react";
+import { Card, CardImg, CardTitle } from "reactstrap";
 
-const Project = props => {
+const Project = (props) => {
   return (
-    <Card className='mt-5'>
+    <Card className="mt-5">
       <CardImg top width="100%" src={props.img.src} alt={props.img.alt} />
-      <CardTitle><a href={props.url} target="_blank">{props.title}</a></CardTitle>
+      <CardTitle>
+        <a href={props.url} rel="noopener noreferrer" target="_blank">
+          {props.title}
+        </a>
+      </CardTitle>
     </Card>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
