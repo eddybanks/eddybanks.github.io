@@ -2,11 +2,9 @@ import React, { Component } from "react";
 import Projects from "./Projects";
 import { Container } from "reactstrap";
 import schooladmin from "../../assets/schooladmin.png";
-// import hangout229 from '../../assets/hangout229.png'
-// import kirtlandlogistics from '../../assets/kirtlandlogistics.png'
-// import portfolio from '../../assets/portfolio.png'
 import crwneddy from "../../assets/crwneddy.png";
 import skywatcher from "../../assets/skywatcher.png";
+import edmkatrivia from "../../assets/edmkatrivia.png";
 
 class ProjectsContainer extends Component {
   state = {
@@ -38,42 +36,15 @@ class ProjectsContainer extends Component {
         title: "Crwn Clothing",
         url: "https://crwneddy.herokuapp.com/",
       },
-      // {
-      //   id: 2,
-      //   img: {
-      //   src: hangout229,
-      //   alt: 'Hangout@229'
-      //   },
-      //   title: 'Hangout@229',
-      //   url: 'https://eddybanks.github.io/hangout229'
-      // },
-      // {
-      //   id: 3,
-      //   img: {
-      //   src: portfolio,
-      //   alt: 'Portfolio Site'
-      //   },
-      //   title: 'Portfolio Site',
-      //   url: 'https://eddybanks.github.io/portfolio'
-      // },
-      // {
-      //   id: 4,
-      //   img: {
-      //   src: kirtlandlogistics,
-      //   alt: 'Kirtland Logistics'
-      //   },
-      //   title: 'Kirtland Logistics',
-      //   url: 'https://eddybanks.github.io/kirtland-logistics'
-      // },
-      // {
-      //   id: 5,
-      //   img: {
-      //   src: paperhuts,
-      //   alt: 'Paper Huts'
-      //   },
-      //   title: 'Paper Huts',
-      //   url: 'https://paperhuts.com'
-      // }
+      {
+        id: 2,
+        img: {
+          src: edmkatrivia,
+          alt: "Edmka Trivia App",
+        },
+        title: "Trivia App",
+        url: "https://edmka-trivia.netlify.app/",
+      },
     ],
   };
 
