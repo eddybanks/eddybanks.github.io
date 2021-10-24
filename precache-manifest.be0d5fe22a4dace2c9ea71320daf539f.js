@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9931d7da866bdf6278e664b6a4430f7",
+    "revision": "fe1118e18b6a71922a7a323c91e78d16",
     "url": "/index.html"
   },
   {
-    "revision": "42503c1be1804c1265d4",
+    "revision": "49dba38d43633e677b5e",
     "url": "/static/css/2.9ee52aab.chunk.css"
   },
   {
-    "revision": "f2fc36f1b5172365e78c",
+    "revision": "82fc34fa2d462b2045c4",
     "url": "/static/css/main.209522bf.chunk.css"
   },
   {
-    "revision": "42503c1be1804c1265d4",
-    "url": "/static/js/2.ec25917a.chunk.js"
+    "revision": "49dba38d43633e677b5e",
+    "url": "/static/js/2.c2ad358a.chunk.js"
   },
   {
-    "revision": "f2fc36f1b5172365e78c",
-    "url": "/static/js/main.94de6b39.chunk.js"
+    "revision": "82fc34fa2d462b2045c4",
+    "url": "/static/js/main.d3c4ce47.chunk.js"
   },
   {
     "revision": "7ea5582ef2935c3c551e",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/crwneddy.9f069ca2.png"
   },
   {
+    "revision": "070418719fa67d494451c4875e1cb30b",
+    "url": "/static/media/edmkadex.07041871.png"
+  },
+  {
     "revision": "94b042bdd56d1956b21095687d667dee",
     "url": "/static/media/edmkatrivia.94b042bd.png"
   },
@@ -44,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.6c8e140e.svg"
   },
   {
-    "revision": "d37f8d00174c31a30322855addca4a11",
-    "url": "/static/media/resume.d37f8d00.pdf"
+    "revision": "276e12b3f2fd3520139db9c066c716e4",
+    "url": "/static/media/resume.276e12b3.pdf"
   },
   {
     "revision": "ddbad142d10d67f556c33fab2039b8d7",
