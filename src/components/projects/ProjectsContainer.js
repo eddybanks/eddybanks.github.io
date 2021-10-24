@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Projects from "./Projects";
 import { Container } from "reactstrap";
+import edmkadex from "../../assets/edmkadex.png";
 import schooladmin from "../../assets/schooladmin.png";
 import crwneddy from "../../assets/crwneddy.png";
 import skywatcher from "../../assets/skywatcher.png";
@@ -12,20 +13,20 @@ class ProjectsContainer extends Component {
       {
         id: 0,
         img: {
+          src: edmkadex,
+          alt: "Pokedex Web App",
+        },
+        title: "EdmkaDex",
+        url: "https://edmkadex.netlify.app/",
+      },
+      {
+        id: 1,
+        img: {
           src: skywatcher,
           alt: "Skywatcher Weather Web App",
         },
         title: "Skywatcher",
         url: "https://skywatcher.netlify.app/",
-      },
-      {
-        id: 1,
-        img: {
-          src: schooladmin,
-          alt: "School Admin",
-        },
-        title: "School Admin",
-        url: "https://paper-huts.github.io/school-admin",
       },
       {
         id: 2,
@@ -37,7 +38,16 @@ class ProjectsContainer extends Component {
         url: "https://crwneddy.herokuapp.com/",
       },
       {
-        id: 2,
+        id: 3,
+        img: {
+          src: schooladmin,
+          alt: "School Admin",
+        },
+        title: "School Admin",
+        url: "https://paper-huts.github.io/school-admin",
+      },
+      {
+        id: 4,
         img: {
           src: edmkatrivia,
           alt: "Edmka Trivia App",
